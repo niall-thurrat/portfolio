@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Niall Thurrat</title>
+
+	<link rel="stylesheet" type="text/css" href="css/superslides.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="loader">
+		<div class="inner"></div>
+	</div>
+
+  <div id="slides">
+		<div class="overlay"></div>
+		<div class="slides-container">
+      <img src="img/slide1.jpg" alt="">
+      <img src="img/slide2.jpg" alt="">
+      <img src="img/slide3.jpg" alt="">
+      <img src="img/slide4.jpg" alt="">
+		</div>
+		<div class="titleMessage">
+			<div class="heading">
+				<p class="main">NIALL THURRAT</p>
+				<p class="sub typed"></p>
+			</div>
+			<div class="downIcon">
+				<a href="#about">
+					<i class="fa-solid fa-circle-chevron-down"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="index.html">Niall Thurrat</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+					<li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+	<div id="about" class="section">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-5">
+					<img class="aboutImage" src="img/about.jpg">
+				</div>
+
+				<div class="col-md-7">
+					<h4>About me</h4>
+					<p>Hi there! I'm Niall Thurrat from Lisburn, Northern Ireland. I'm currently living in Stockholm and have just finished my Web Programmer diploma at Linaeus University, Kalmar. I'm now searching for my first position as a web developer. Exciting stuff!</p>
+          <p>I've gained a lot of knowledge of JavaScript and C# during my education and have been working in the customer support team for a small software company at the same time, where I worked a lot with documentation and customers, and a little with software development.</p>
+					<p>In my spare time, if I'm not building something on my laptop, you'll find me out on an adventure, with one eye on the kids and another on fantasy football :)</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	 <div id="skills" class="skillsSection section">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12 text-center">
+					<h2>TECHNICAL SKILLS</h2>
+				</div>
+
+				<div class="my-slider">	
+				
+          <div class="skill">
+            <img src="img/tech-logos/html-logo-sm.png" alt="">
+            <p>Have used for several years.</p>
+          </div>
+
+          <div class="skill">
+            <img src="img/tech-logos/js-logo-sm.png" alt="">
+            <p>Used extensively for the last 4 years.</p>
+          </div>
+
+          <div class="skill">
+            <img src="img/tech-logos/css-logo-sm.png" alt="">
+            <p>Used for several years.</p>
+          </div>
+
+          <div class="skill">
+            <img src="img/tech-logos/nodejs-logo-sm.png" alt="">
+            <p>The backbone of my programming diploma.</p>
+          </div>
+
+          <div class="skill">
+            <img src="img/tech-logos/dotnet-logo-sm.png" alt="">
+            <p>Used in 3 university courses.</p>
+          </div>
+
+          <div class="skill">
+            <img src="img/tech-logos/csharp-logo-sm.png" alt="">
+            <p>Used in 3 university courses.</p>
+          </div>
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<div id="portfolio" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="heading">
+					<h2>PORTFOLIO</h2>
+				</div>
+
+				<div class="filter">
+					<ul id="filters">
+						<li><a href="#" data-filter="*" class="current">ALL</a></li>
+						<li><a href="#" data-filter=".frontend" >Frontend</a></li>
+						<li><a href="#" data-filter=".backend" >Backend</a></li>
+						<li><a href="#" data-filter=".fullstack" >Full stack</a></li>
+						<li><a href="#" data-filter=".rest">REST</a></li>
+						<li><a href="#" data-filter=".api">API</a></li>
+						<li><a href="#" data-filter=".mongodb">MongoDB</a></li>
+						<li><a href="#" data-filter=".mysql">MySQL</a></li>
+						<li><a href="#" data-filter=".angular">Angular</a></li>
+						<li><a href="#" data-filter=".react">React.js</a></li>
+						<li><a href="#" data-filter=".express">Express.js</a></li>
+						<li><a href="#" data-filter=".nodejs">Node.js</a></li>
+						<li><a href="#" data-filter=".js">JavaScript</a></li>
+						<li><a href="#" data-filter=".ts">TypeScript</a></li>
+						<li><a href="#" data-filter=".bootstrap">Bootstrap</a></li>
+						<li><a href="#" data-filter=".handlebars">Handlebars</a></li>
+						<li><a href="#" data-filter=".chrome">Chrome extension</a></li>
+					</ul>
+				</div>
+
+				<div class="itemsContainer">
+					<ul class="items">
+
+						<!-- API-GUIde -->
+						<li class="frontend angular nodejs ts col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/api-guide-home-square.png">
+								<div class="icons">
+									<a title="View image" class="openButton" data-fancybox data-src="#item-detail-1">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</a>
+									<a href="https://github.com/niall-thurrat/api-guide" target="_blank" class="projectLink">
+										<i class="fa-solid fa-link"></i>
+									</a>
+								</div>
+								<div id="item-detail-1" class="container item-detail" style="display:none;">
+									<img src="img/portfolio/api-guide.png" class="img-fluid" alt=""> 
+									<h1>API GUIde</h1>
+									<p><B>Description:</B> A frontend demo app built with Angular that presents API data</p>
+									<p><B>Tech used:</B> Angular 14, Node.js, TypeScript, SASS, HTML, PrimeNG, GitHub</p>
+									<p><B>Source code:</B> 
+										<a href="https://github.com/niall-thurrat/api-guide" target="_blank">
+											github.com/niall-thurrat/api-guide
+										</a>
+									</p>
+									<p><B>Web address:</B> Not deployed</p>
+									<p><B>Notes:</B> This is a simple frontend app that gathers data from <a href="https://api.publicapis.org/" target="_blank">a public API</a> and provides it to users in a table with comprehensive filtering and sorting functionality. The app also demonstrates how CRUD functionality would look in the app, although the (backend) public API does not support this. This means you will not actually be able to add, edit or delete APIs, you just have to use your imagination 😊</p>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+						<!-- FishCatch API -->
+						<li class="backend mongodb express nodejs js bootstrap rest api col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/fishcatch-api-poster-300.jpg">
+								<div class="icons">
+									<a title="View image" class="openButton" data-fancybox data-src="#item-detail-2">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</a>
+									<a href="https://github.com/niall-thurrat/fishcatch-api" target="_blank" class="projectLink">
+										<i class="fa-solid fa-link"></i>
+									</a>
+								</div>
+								<div id="item-detail-2" class="container item-detail" style="display:none;">
+									<img src="img/portfolio/fishcatch-api-root-in-postman.png" class="img-fluid" alt=""> 
+									<h1>FishCatch API</h1>
+									<p><B>Description:</B> A REST API built with Express.js that allows users to record details of caught fish</p>
+									<p><B>Tech used:</B> MongoDB, Express.js, Node.js, Bootstrap, GitHub, Webhooks, REST API</p>
+									<p><B>Source code:</B> 
+										<a href="https://github.com/niall-thurrat/fishcatch-api" target="_blank">
+											github.com/niall-thurrat/fishcatch-api
+										</a>
+									</p>
+									<p><B>Web address:</B> https://fishcatch-api.herokuapp.com</p>
+									<p><B>Notes:</B> The FishCatch REST API is a web app that manages user and caught fish resources. Client apps can access the API using JWT authentiaction to provide CRUD functionality to users who want to keep track of caught fish data. FishCatch API has been created to complete an assignment for <i>The Web as an Application Platform</i> course at Linnaeus University.</p>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+						<!-- myHub -->
+						<li class="fullstack frontend backend mongodb express react nodejs js bootstrap api col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/myhub-square-sm.png">
+								<div class="icons">
+									<a title="View image" class="openButton" data-fancybox data-src="#item-detail-3">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</a>
+									<a href="https://github.com/niall-thurrat/myhub" target="_blank" class="projectLink">
+										<i class="fa-solid fa-link"></i>
+									</a>
+								</div>
+								<div id="item-detail-3" class="container item-detail" style="display:none;">
+									<img src="img/portfolio/myHub_system_diagram.png" class="img-fluid" alt=""> 
+									<h1>myHub</h1>
+									<p><B>Description:</B> A full stack application built with a MERN stack where users get real-time GitLab account data and notifications</p>
+									<p><B>Tech used:</B> MongoDB, Express.js, React.js, Node.js, JavaScript, Bootstrap, GitHub, Webhooks, API, GitLab, Socket.io</p>
+									<p><B>Source code:</B> 
+										<a href="https://github.com/niall-thurrat/myhub" target="_blank">
+											github.com/niall-thurrat/myhub
+										</a>
+									</p>
+									<p><B>Web address:</B> Not deployed</p>
+									<p><B>Notes:</B> This application was built as part of the <i>Applications and Frameworks for Web Applications</i> course at Linnaeus University.</p>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+						<!-- Movie Guru -->
+						<li class="fullstack frontend backend express nodejs js handlebars mysql bootstrap col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/movie-guru-square-sm.png">
+								<div class="icons">
+									<a title="View image" class="openButton" data-fancybox data-src="#item-detail-4">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</a>
+									<a href="https://github.com/niall-thurrat/movie_guru" target="_blank" class="projectLink">
+										<i class="fa-solid fa-link"></i>
+									</a>
+								</div>
+								<div id="item-detail-4" class="container item-detail" style="display:none;">
+									<img src="img/portfolio/movie-guru.png" class="img-fluid" alt=""> 
+									<h1>Movie Guru</h1>
+									<p><B>Description:</B> A movie rating app built with an Express.js backend and server-side webpage rendering that makes movie suggestions to users based on their previous ratings and age</p>
+									<p><B>Tech used:</B> MySQL, Express.js, Handlebars Templating Engine, JavaScript, Node.js, Bootstrap, GitHub</p>
+									<p><B>Source code:</B> 
+										<a href="https://github.com/niall-thurrat/movie_guru" target="_blank">
+											github.com/niall-thurrat/movie_guru
+										</a>
+									</p>
+									<p><B>Web address:</B> Not deployed</p>
+									<p><B>Notes:</B> This application was built as part of the <i>Database Theory</i> course at Linnaeus University. It focuses on using SQL queries to make useful movie suggestions to users based on actors and directors who are connected to the movies that they have highly rated.</p>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+						<!-- Tokeniz3r, Doc-pars3r and Pretty-print3r -->
+						<li class="backend nodejs js col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/tokeniz3r-npm-sm.png">
+								<div class="icons">
+									<a title="View image" class="openButton" data-fancybox data-src="#item-detail-5">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</a>
+									<a href="https://github.com/niall-thurrat/api-guide" target="_blank" class="projectLink">
+										<i class="fa-solid fa-link"></i>
+									</a>
+								</div>
+								<div id="item-detail-5" class="container item-detail" style="display:none;">
+									<img src="img/portfolio/doc-pars3r-in-vscode.png" class="img-fluid" alt=""> 
+									<h1>Tokeniz3r, Doc-pars3r and Pretty-print3r</h1>
+									<p><B>Description:</B> 3 Node.js modules written with JavaScript.</p>
+									<ul class="list-unstyled">
+										<li><i> - Tokeniz3r</i> tokenizes strings</li>
+										<li><i> - Doc-pars3r</i> uses tokeniz3r to help it parse text documents</li>
+										<li><i> - Pretty-print3r</i> uses doc-pars3r to help it prettify text documents</li>
+									</ul>
+									<p><B>Tech used:</B> JavaScript, Node.js, NPM</p>
+									<p><B>Source code:</B></p>
+									<ul class="list-unstyled">
+										<li><i> - Tokeniz3r: </i><a href="https://github.com/niall-thurrat/tokeniz3r" target="_blank">github.com/niall-thurrat/tokeniz3r</a></li>
+										<li><i> - Doc-pars3r: </i><a href="https://github.com/niall-thurrat/doc-pars3r" target="_blank">github.com/niall-thurrat/doc-pars3r</a></li>
+										<li><i> - Pretty-print3r: </i><a href="https://github.com/niall-thurrat/pretty-print3r" target="_blank">github.com/niall-thurrat/pretty-print3r</a></li>
+									</ul>
+									<p><B>Web address:</B></p>
+									<ul class="list-unstyled">
+										<li><i> - Tokeniz3r: </i><a href="https://www.npmjs.com/package/tokeniz3r" target="_blank">www.npmjs.com/package/tokeniz3r</a></li>
+										<li><i> - Doc-pars3r: </i> NA</li>
+										<li><i> - Pretty-print3r: </i> NA</li>
+									</ul>
+									<p><B>Notes:</B> This series of three modules was created for the Introduction to Software Quality course at Linnaeus University:</p>
+									<ul class="list-unstyled">
+										<li><i> - Tokeniz3r:</i> This module creates a set of tokens based on two parameters: an input string and a set of grammar rules. The module is a published npm package.</li>
+										<li><i> - Doc-pars3r:</i> This module creates a parsed document based on one parameter: an input string. It has a set of internal hard coded grammar rules and uses this with the input string to get tokens from the tokeniz3r module (it's only dependency). Doc-pars3r fulfils a basic function of parsing three sentence types: regular sentences, questions and exclamations. It is therefore only for use in a local dev environment.</li>
+										<li><i> - Pretty-print3r:</i> This is a very basic module set up as a method to demo and test Doc-pars3r. It takes a string argument in the start script and updates an output.html file with a list of parsed sentences, formatted according to sentence type. The module is only for use in a local dev environment.</li>
+									</ul>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+						<!-- Service Worker Inspector -->
+						<li class="chrome js col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<div class="item">
+								<img src="img/portfolio/thumbnails/swi-sm.png">
+								<div class="icons">
+									<a title="View image" class="openButton" data-fancybox data-src="#item-detail-6">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</a>
+									<a href="https://github.com/niall-thurrat/api-guide" target="_blank" class="projectLink">
+										<i class="fa-solid fa-link"></i>
+									</a>
+								</div>
+								<div id="item-detail-6" class="container item-detail" style="display:none;">
+									<img src="img/portfolio/swi-in-vscode.png" class="img-fluid" alt=""> 
+									<h1>Service Worker Inspector</h1>
+									<p><B>Description:</B> A Chrome extension for protection against Service Worker Cross Site Scripting (SW-XSS) attack</p>
+									<p><B>Tech used:</B> Progressive Web App (PWA), Service Worker, Chrome extension, API</p>
+									<p><B>Source code: </B> 
+										<a href="https://github.com/niall-thurrat/service-worker-inspector" target="_blank">
+											github.com/niall-thurrat/service-worker-inspector
+										</a>
+									</p>
+									<p><B>Thesis link: </B> 
+										<a href="https://docs.google.com/document/d/1gbD1gnbeSCAD26M9wZK3nrQPEJLX_jYqvViDHA6garI/edit?usp=sharingt" target="_blank">
+											Google doc
+										</a>
+									</p>
+									<p><B>Web address:</B> NA</p>
+									<p><B>Notes:</B> This application was built as part of a design project completed for my thesis for the Web Programmer diploma at Linnaeus University.</p>
+								</div>
+								<div class="imageOverlay"></div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact" class="contactSection section">
+		<div class="col-md-12 text-center">
+			<p class="subHeading">Like what you see?</p>
+			<h2>I'd love to hear from you!</h2>
+			<h6><i class="fa-solid fa-phone"> </i> +46 (0)73 892 31 98</h6>
+			<h6><i class="fa-solid fa-envelope"> </i> niall.thurrat@gmail.com</h6>
+			<h6><i class="fa-brands fa-github"> </i>
+				<a href="https://github.com/niall-thurrat" target="_blank">
+					github.com/niall-thurrat
+				</a>
+			</h6>
+			<a href="mailTo:niall.thurrat@gmail.com" class="contactButton">GET IN TOUCH!</a>
+		</div>
+	</div>
+
+	<div class="copyrightSection">
+		<div class="col-md-12 text-center">
+			<p>&copy; Copyright Niall Thurrat 2022</p>
+		</div>
+	</div>
+  
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<script src="js/typed.min.js"></script>
+  <script src="https://kit.fontawesome.com/aa240cf034.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
