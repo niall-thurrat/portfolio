@@ -76,18 +76,41 @@ body {
 }
 
 .skill img {
-	max-width: 150px;
 	margin-bottom: 20px;
+	height: 150px;
+}
+
+.tns-controls {
+	text-align: center;
+}
+
+.tns-controls button {
+	background-color: #028090;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 15px;
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	text-decoration: none;
+	margin: 0px 5px;
+}
+
+.tns-controls button:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #02182B;
+	background-color: #fff;
 }
 
 .contactButton {
 	color: #fff;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	text-decoration: none;
 }
 
 .contactButton:hover {

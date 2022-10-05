@@ -32,13 +32,15 @@ $(document).ready(function() {
 	const slider = tns({
 		container: '.my-slider',
 		items: 1,
-		slideBy: 1,
-		controls: false,
+		slideBy: 3,
+		controls: true,
+		controlsPosition: "bottom",
+		controlsText: [ '<', '>'],
 		autoplayButtonOutput: false,
 		nav: false,
 		speed: 3000,
 		autoplay: true,
-		autoplayTimeout: 3000,
+		autoplayTimeout: 6000,
 		responsive: {
 			400: {
 				items: 2
